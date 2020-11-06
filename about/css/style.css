@@ -1,0 +1,18 @@
+body {
+  background-color: #001f3f;
+  margin-left:0px;
+  margin-right:0px;
+}
+h1{
+  font-size:40px;
+}
+a:link{
+  color:  #001f3f;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #001f3f;
+  background-color: transparent;
+  text-decoration: none;
+}

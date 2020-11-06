@@ -1,0 +1,81 @@
+/* * {
+  box-sizing: border-box;
+} */
+.banner{
+  z-index: -5;
+  position: absolute;
+  /* border: 2px solid red; */
+  margin: -25% 1% 1% 0%;
+  width: 100%;
+  /* height: 80% */
+}
+
+.main_field{
+  margin-top: 15%;
+  height: 15%;
+  border-top: 1px solid #DDDDDD;
+  border-radius: 1.5px;
+  background-color: #DDDDDD  ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Set icon properties */
+.tooltip a{
+  font-size: 40px;
+  text-align: center;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.icons {
+  margin: 1% 0% 0% 0%;
+  padding-bottom: 0px; /* Some padding */
+  padding-top: 0.5%; /* Some padding */
+  text-align: center; /* Center text*/
+  background: #ddd; /* Grey background */
+}
+
+#banner{
+  /* object-fit: fill; */
+  width:100%;
+  height: 80%;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+#pic{
+  position: relative;
+  margin-top: -5%;
+  margin-left: 42%;
+  display: block;
+  border-radius: 50%;
+  overflow: visible;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 15%;
+  height: 30%;
+}
+
+#textfield {
+  z-index: -1;
+  text-align: center;
+  line-height: 0.5;
+  color: #001f3f;
+  padding-bottom: 1.5%;
+}
+
+.pre-footer-image{
+  position: absolute;
+
+  /* object-fit: fill; */
+  margin: 1% 0% 0.5% 0%;
+  height: 15%;
+  width: 100%;
+  bottom: 0%;
+}
+#foot-img{
+  position:relative;
+  /* display: block; */
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+}
